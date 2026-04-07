@@ -2,12 +2,12 @@ import React from 'react';
 import { Code2, Database, Layout, Smartphone, Terminal, Cpu } from 'lucide-react';
 
 const skills = [
-  { name: 'JavaScript / TypeScript', icon: <Terminal size={20} /> },
-  { name: 'React & Next.js', icon: <Code2 size={20} /> },
-  { name: 'Node.js / Express', icon: <Cpu size={20} /> },
-  { name: 'UI / UX Design', icon: <Layout size={20} /> },
-  { name: 'SQL & NoSQL Databases', icon: <Database size={20} /> },
-  { name: 'Responsive Web Design', icon: <Smartphone size={20} /> },
+  { name: 'HTML, CSS, JavaScript', icon: <Layout size={20} /> },
+  { name: 'C & C++', icon: <Terminal size={20} /> },
+  { name: 'Python & Java', icon: <Code2 size={20} /> },
+  { name: 'OOP & Data Structures', icon: <Database size={20} /> },
+  { name: 'Flask & AWS', icon: <Cpu size={20} /> },
+  { name: 'ESP32 & Hardware', icon: <Smartphone size={20} /> },
 ];
 
 const Skills = () => {

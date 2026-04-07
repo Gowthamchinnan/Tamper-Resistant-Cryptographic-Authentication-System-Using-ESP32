@@ -15,9 +15,9 @@ const LinkedinIcon = ({ size }) => (
   </svg>
 );
 
-const TwitterIcon = ({ size }) => (
+const InstagramIcon = ({ size }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/>
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
   </svg>
 );
 
@@ -32,21 +32,26 @@ const Contact = () => {
           </h3>
           <p className="contact-desc">
             Whether you have a question or just want to say hi, I'll try my best to get back to you! 
-            Currently open for new opportunities.
+            Currently open for entry-level software engineering positions.
           </p>
-          <a href="mailto:hello@example.com" className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
-            <Mail size={20} /> Say Hello
-          </a>
+          <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=cgowtham193@gmail.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
+              <Mail size={20} /> cgowtham193@gmail.com
+            </a>
+            <a href="tel:9003480578" className="btn btn-outline" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
+              Phone: +91 9003480578
+            </a>
+          </div>
           
           <div className="social-links">
-            <a href="#" className="social-link" aria-label="Github">
+            <a href="https://github.com/Gowthamchinnan" className="social-link" aria-label="Github" target="_blank" rel="noopener noreferrer">
               <GithubIcon size={24} />
             </a>
-            <a href="#" className="social-link" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/gowtham-mca" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
               <LinkedinIcon size={24} />
             </a>
-            <a href="#" className="social-link" aria-label="Twitter">
-              <TwitterIcon size={24} />
+            <a href="https://www.instagram.com/gowtham_chinnan/" className="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <InstagramIcon size={24} />
             </a>
           </div>
         </div>
