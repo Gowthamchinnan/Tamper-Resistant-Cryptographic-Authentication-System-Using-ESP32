@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-bottom">
-                <p>© {new Date().getFullYear()} Gowtham Chinnan. All rights reserved.</p>
+                <p>© {new Date().getFullYear()} Gowtham Chinnan. Crafted with Precision & Code.</p>
             </div>
         </footer>
     );

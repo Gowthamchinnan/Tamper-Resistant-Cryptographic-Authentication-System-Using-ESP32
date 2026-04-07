@@ -72,7 +72,7 @@ function App() {
       </main>
 
       <footer style={{ textAlign: 'center', padding: '3rem 0', color: '#64748b', fontSize: '0.9rem', borderTop: '1px solid rgba(255, 255, 255, 0.05)' }}>
-        <p>© {new Date().getFullYear()} Gowtham Chinnan. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Gowtham Chinnan. Crafted with Precision & Code.</p>
       </footer>
     </>
   );
