@@ -14,7 +14,7 @@ const projects = [
     desc: 'Developing a high-security authentication system using ESP32 with hardware-level protection to prevent physical and digital tampering.',
     tags: ['ESP32', 'Embedded Systems', 'IoT Security', 'Cryptography'],
     image: '/assets/images/esp32_project.png',
-    links: { github: 'https://github.com/Gowthamchinnan/Tamper-Resistant-Cryptographic-Authentication-System-Using-ESP32' },
+    links: {},
     status: 'Ongoing'
   },
   {
